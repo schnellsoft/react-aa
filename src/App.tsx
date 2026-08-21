@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Title from './features/header/components/title/Title'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Title title="Hi Dan, welcome to the app" />
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
